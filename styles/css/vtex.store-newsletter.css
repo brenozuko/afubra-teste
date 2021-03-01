@@ -1,0 +1,69 @@
+.newsletterForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 142px;
+    background:  #d7eab4 url("assets/ico_news.png") no-repeat 50px center;  
+    flex-flow: column;
+}
+
+.newsletterForm :global(.vtex-button) { 
+    background: #018247; 
+    text-transform: none;  
+    font-weight: bold;
+    border: 0;
+    height: 46px;
+    border-radius: 10px;
+    width: 153px;
+    font-size: 20px;
+}
+.newsletterForm :global(.vtex-input-prefix__group) {
+    border: 2px solid #7eb218;
+    border-radius: 10px;
+    width: 317px;
+    height: 46px;
+}
+.newsletterForm .emailInputContainer :global(.vtex-input-prefix__group) {
+    width: 100%;
+}
+.emailInputContainer,
+.nameInputContainer,
+.formSubmitContainer {
+    padding-left: 30px;
+}
+.nameInputContainer {
+    order: 1;
+}
+.emailInputContainer {
+    order: 2;
+}
+.formSubmitContainer {
+    order: 3; 
+    padding-top: 40px;
+    align-self: center;
+}
+.emailInputContainer :global(.vtex-input__label){
+   min-height: 34px;
+   min-height: 34px;
+   display: flex;
+   align-items: center;
+}
+.nameInputContainer :global(.vtex-input__label){
+    text-transform: uppercase;
+    color: #018247;
+    font-size: 30px;
+}
+.emailInputContainer :global(.vtex-input__label){
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 16px;
+}
+@media screen and (min-width: 80rem) {
+    .newsletterForm {
+        flex-flow: row;
+        padding-left: 130px !important; 
+    }
+    .newsletterForm .emailInputContainer :global(.vtex-input-prefix__group) {
+        width: 408px;
+    }
+}

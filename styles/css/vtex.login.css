@@ -1,0 +1,35 @@
+
+.container :global(.items-center.pv2) {
+    flex-flow: column;
+}
+.container :global(.items-center.pv2)::before {
+    content: "Seja Bem-vindo ;)";
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    text-transform: none;
+}
+.container :global(.vtex-login-2-x-label) {
+    display: block;
+}
+.container :global(.vtex-login-2-x-label) {
+    font-size: 0;
+    font-size: 0;
+    margin: 0;
+    padding: 10px 0 0;
+}
+.container :global(.vtex-login-2-x-label)::before {
+    content: "Entre ou Cadastre-se";
+    font-size: 12px;
+    display: block;
+    background: no-repeat url("assets/txt_login.png");
+    font-size: 0;
+    height: 20px; 
+    width: 131px;
+}
+.container :global(.vtex-button):focus {
+    outline: none;
+    border: 0;
+    background: none;
+} 

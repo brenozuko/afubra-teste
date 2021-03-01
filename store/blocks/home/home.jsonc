@@ -1,0 +1,150 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "list-context.image-list#banner-second",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#mosaico",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#news"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 540,
+      "images": [
+        {
+          "image": "assets/banners/banner-principal.jpg",
+          "mobileImage": "assets/banners/banner_mobile.jpg"
+        },
+        {
+          "image": "assets/banners/banner-principal.jpg",
+          "mobileImage": "assets/banners/banner_mobile.jpg"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-second": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 170,
+      "images": [
+        {
+          "image": "assets/banners/banner-second.jpg",
+          "mobileImage": "assets/banners/banner_mobile2.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "blockClass": "row-vitrine"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"],
+    "props": {
+      "blockClass": "row-vitrine"
+    }
+  },
+  "flex-layout.row#news": {
+    "children": ["newsletter-form#news"],
+    "props": {
+      "blockClass": "row-container" 
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "never",
+      "blockClass": "shelf"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "shelf"
+    }
+  },
+  "newsletter#news": {
+    "props": {
+      "submit": "Cadastrar"
+    }
+  },
+  "newsletter-form#news": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email": {
+    "props": {
+      "inputLabel": "Receba promoções exclusivas em seu e-mail.",
+      "placeholderText": "E-mail"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "inputLabel": "CADASTRE-SE",
+      "placeholderText": "Nome"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Cadastrar"
+    }
+  }
+}

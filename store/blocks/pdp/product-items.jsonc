@@ -1,0 +1,23 @@
+{
+    "product-identifier.product":{
+        "props": {
+            "label": "Cód. do produto:"
+        } 
+    },
+    "add-to-cart-button#button-prod": {
+        "props": {
+          "text": "Comprar",
+          "blockClass": "button-add"
+        }
+    },
+    "share#default": {
+        "props": {
+          "social": {
+            "Facebook": true,
+            "WhatsApp": true,
+            "Twitter": false,
+            "Pinterest": true
+          }
+        }
+    }
+}

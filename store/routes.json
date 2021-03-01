@@ -1,0 +1,8 @@
+{
+  "store.custom#history": {
+    "path": "/a-historia"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  }
+}

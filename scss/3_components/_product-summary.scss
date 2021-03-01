@@ -1,0 +1,33 @@
+.vtex-product-summary-2-x-container {
+    .vtex-flex-layout-0-x-flexRowContent--row-price {
+        @include for-mobile {
+            margin: 0 0 5px;
+        }
+    }
+    .vtex-product-summary-2-x-nameContainer {
+        justify-content: center;
+        h1 {
+            display: block;
+            text-align: center;
+        }
+    }
+    .vtex-product-price-1-x-installments--summary {
+        text-align: center;
+        font-family: $font-custom;
+        font-family: "Roboto",sans-serif;
+        display: block;
+        margin: 0;
+        font-weight: bold; 
+        font-size: 11px;
+        color: #2E2E2E; 
+        @include for-desktop {
+            font-size: 16px;
+        }
+    }
+    .vtex-button {
+        margin-top: 10px;
+        &:hover {
+            background-color: transparent; 
+        }
+    }
+}

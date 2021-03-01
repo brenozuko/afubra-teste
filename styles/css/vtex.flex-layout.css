@@ -1,0 +1,148 @@
+.flexRow--main-header-mobile :global(.vtex-store-components-3-x-imageElement) {
+  max-width: 120px;
+}
+.flexRowContent :global(.vtex-store-drawer-0-x-openIconContainer) {
+  background-image: url("assets/ico_menu.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 41px;
+  height: 27px;
+  margin-left: 10px; 
+}
+.flexRowContent :global(.vtex-store-drawer-0-x-menuIcon){
+  display: none;
+}
+.flexRowContent--main-header-mobile {
+  justify-content: space-between; 
+} 
+.flexRow--row-container {
+  max-width: 1298px;
+  margin: 0 auto;
+}
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+.flexRow--menu-link {
+  background-color: #7eb218;
+}
+.flexRowContent--menu-link {
+  background-color: #7eb218;
+  color: #fff;
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.flexRowContent--main-header {
+  
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--mosaico-row :global(.vtex-store-components-3-x-container){
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.flexColChild--mosaico1 .flexRowContent {
+  width: 100%; 
+}
+.flexRow--mosaico-row :global(.vtex-flex-layout-0-x-flexRowContent){
+  justify-content: space-between;  
+}
+.flexRow--mosaico-row :global(.vtex-flex-layout-0-x-flexCol--col-mosaico2){
+  width: calc(100% - 11px);
+}
+.flexRow--mosaico-row  .flexColChild--mosaico31 {
+  width: calc(100% - 15px);   
+}
+.flexRow--price-from :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: auto !important;
+}
+@media screen and (min-width: 80rem) {
+  .flexColChild--mosaico1 .flexRowContent {
+    width: calc(100% - 15px); 
+  }
+}

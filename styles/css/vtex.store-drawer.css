@@ -1,0 +1,55 @@
+.drawer { 
+    background: #7EB218;  
+}
+.closeIconButton {
+    color: #fff; 
+}
+.drawer :global(.vtex-menu-2-x-styledLinkContent) {
+    justify-content: flex-start;
+}
+.drawer :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+}
+.drawer :global(.vtex-menu-2-x-styledLinkIcon) {
+    width: 60px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+.drawer :global(.vtex-ico_maquina) {
+   max-width: 40px; 
+   height: auto; 
+}
+.drawer :global(.vtex-menu-2-x-menuItem) {
+    margin: 5px 0;
+    border-top: 1px solid #97C73A;
+    PADDING-TOP: 5PX;
+}
+.drawer :global(.vtex-menu-2-x-accordionIcon) {
+    font-size: 0;
+    background: url("assets/ico_down.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -11px;
+}
+.drawer :global(.vtex-menu-2-x-accordionIcon--menu-mobile-categorias--isOpen) {
+    transform: rotate(180deg);
+}
+.drawer :global(.vtex-menu-2-x-accordionIcon)::after {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: red;
+}

@@ -1,0 +1,123 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  } 
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brandName {
+  font-weight: 600;
+  color: #2E2E2E;
+  font-size: 12px;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+.element {
+  padding: 0;
+}
+.element :global(.vtex-button) {
+  background: none;
+  border: 0;
+  color: #000;
+  text-align: left;
+  visibility:hidden;
+  opacity:0;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+.container:hover :global(.vtex-button)  {
+  visibility:visible; 
+    opacity:1;
+}
+.container :global(.vtex-button):focus  {
+  outline: 0;
+}
+.container {
+  border: 1px solid #fff;
+}
+.container:hover {
+  border: 1px solid #018247;
+}
+.element :global(.vtex-add-to-cart-button-0-x-buttonText--button-add) {
+  text-transform: none;
+  align-items: center;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+}
+.element :global(.vtex-add-to-cart-button-0-x-buttonText--button-add):focus {
+  border: 0; 
+}
+.element :global(.vtex-add-to-cart-button-0-x-buttonText--button-add)::after {
+  content: "";
+  background-image: url("assets/bt_add.png");
+  display: inline-block;
+  margin-left: 10px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 37px;
+  vertical-align: middle;
+}
+.element :global(.vtex-add-to-cart-button-0-x-buttonDataContainer)::after {
+  content: "Comprar";
+  background: #018247;
+  border-top-left-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 12px 13px;
+  text-transform: none;
+}
+.brandName {
+  text-align: center;
+  display: block;  
+}
+.element :global(.vtex-flex-layout-0-x-flexRow--row-price) .vtex-flex-layout-0-x-flexRowContent{
+  align-items: center;
+}
+.element :global(.vtex-button__label) {
+  padding: 0 !important; 
+}
+.element :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+  justify-content: space-between; 
+  width: 100%;
+}
+@media screen and (min-width: 80rem) {
+  .brandName {
+    font-size: 18px;
+  }
+    
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText){
+  white-space: break-spaces;
+}

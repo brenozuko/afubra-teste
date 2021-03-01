@@ -1,0 +1,59 @@
+form.vtex-store-newsletter-1-x-newsletterForm {
+    text-align: center;
+    @include for-mobile {
+        background-image: none; 
+    }
+    @include for-desktop {
+        text-align: left;
+        background-image: url("https://lojasafubra.vtexassets.com/assets/vtex/assets-builder/vtex.store-theme/3.41.0/ico_news.png"); 
+    }
+    .vtex-store-newsletter-1-x-nameInputContainer {
+        .vtex-input__label {
+            @include for-mobile {
+                margin: 10px 0;
+            }
+            &::after {
+                content: "Receba promoções exclusivas em seu e-mail.";
+                color: #4A4A4A;
+                font-weight: bold;
+                font-size: 16px;
+                display: block;
+                text-transform: none;
+                @include for-mobile {
+                    margin: 10px 0 20px;
+                }
+                @include for-desktop {
+                    display: none;
+                }
+            }
+        }
+        .vtex-input-prefix__group {
+            width: 100%;
+            @include for-desktop {
+                width: 317px;
+            }
+        }
+    }
+    .vtex-store-newsletter-1-x-emailInputContainer {
+        .vtex-input__label {
+            display: none;
+            @include for-desktop {
+                display: block;
+            }
+        }
+    }
+    .vtex-store-newsletter-1-x-nameInputContainer,
+    .vtex-store-newsletter-1-x-emailInputContainer {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 15px;
+        @include for-desktop {
+            width: auto; 
+        }
+    }
+    .vtex-store-newsletter-1-x-formSubmitContainer {
+        @include for-mobile {
+            padding: 20px 0 25px;
+        }   
+    }
+}

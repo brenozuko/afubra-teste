@@ -1,0 +1,38 @@
+.vtex-slider-layout-0-x-sliderLayoutContainer--shelf {
+    margin-bottom: 20px;
+}
+.vtex-product-summary-2-x-container {
+    /*Preco De*/
+    font-family: $font-custom;
+    .vtex-flex-layout-0-x-flexRow--price-from {
+        text-align: center;
+        font-family: $font-custom;
+    }
+    .vtex-product-summary-2-x-productNameContainer {
+        font-size: 12px;
+        line-height: 18px;
+        @include for-desktop {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .vtex-product-summary-2-x-brandName {
+            font-size: inherit;
+        }
+    }
+    .vtex-button {
+        @include for-mobile {
+            display: none  !important;
+        }
+    }
+}
+.vtex-slider-layout-0-x-paginationDotsContainer {
+    .vtex-slider-layout-0-x-paginationDot {
+        background: #fff;
+        width: 18px !important;
+        height: 18px !important;
+        border: 2px solid #A3A3A3;
+    }
+    .vtex-slider-layout-0-x-paginationDot--isActive {
+        background: $color-primary-light;
+    }
+}

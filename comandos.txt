@@ -1,0 +1,16 @@
+yarn global add vtex
+
+vtex install vtex.search@0.x
+vtex install vtex.search-graphql
+vtex install vtex.search-resolver@0.x
+vtex workspace list
+
+vtex login lojasafubra
+
+vtex use devlojaafubra
+
+vtex link
+
+https://marvelapp.com/prototype/93gcj0b
+
+vtex ls -- mostra os apps instalados

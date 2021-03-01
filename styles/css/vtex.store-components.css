@@ -1,0 +1,171 @@
+.container {
+  max-width: 1290px;
+  padding: 0;
+}
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer){
+  padding-top: 0;
+}
+
+:global(.vtex-menu-2-x-menuContainer--menu-top) {
+  width: 540px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  max-width: 100%;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder  {
+  color: #018247; 
+}
+.searchBarContainer :global(.vtex-input__suffix) {
+  background-color: #018247;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 46px !important;   
+}
+.searchBarIcon::after {
+  content: "Buscar";
+  color: #fff;
+  margin-left: 10px;
+} 
+.searchIcon--testeee {
+  color: #fff;
+}
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #d7eab4;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 0;  
+}
+.newsletter .inputGroup :global(.vtex-button){
+  background: #018247;
+  text-transform: none;
+  font-weight: bold;
+}
+.newsletter .inputGroup :global(.vtex-button__label){
+  padding: 0.25em 20px;
+}
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+.autoCompleteOuterContainer {
+ 
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  border: 2px solid #7eb218;
+  border-radius: 10px;
+  width: calc(100% - -137px); 
+}
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+   
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.vtex-flex-layout-0-x-flexCol--filterCol {
+  padding-right: 10px;
+}
+
+.vtex-flex-layout-0-x-flexRow--searchinfo{
+  margin-bottom: 20px;
+}
+
+.review__comment {
+  border: 0;
+}

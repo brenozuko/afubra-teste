@@ -1,0 +1,119 @@
+%select_search_order-input {
+    padding: 0 20px 40px;
+    @include for-desktop {
+        padding: 0;
+    }
+    .vtex-search-result-3-x-orderByDropdown {
+        padding: 0;
+        z-index: 3;
+    }
+    .vtex-search-result-3-x-orderByButton {
+        border: $border-input;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 10px;
+        height: 46px;
+        @include for-mobile {
+            justify-content: flex-start;
+        }
+        .vtex-search-result-3-x-filterPopupTitle {
+            padding:0 70px 0 10px;
+            text-transform: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: $color-primary;
+        }
+        .vtex-search-result-3-x-orderByText {
+            display: inline-block;
+            font-weight: normal;
+            color: #474747;
+        }
+    }
+}
+%select_search_order-arrow {
+    .vtex-search-result-3-x-filterPopupArrowIcon {
+        background: $color-primary;
+        color: #fff;
+        border: 2px solid $border-color;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        border-radius: 6px;
+        height: 45px;
+        display: flex;
+        @include flexbox(flex, row, wrap, flex-start, center, center);
+        align-items: center;
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+%search_category-title {
+    margin: 0;
+    font-size: 25px;
+    color: #7EB218;
+}
+%seach_col-filter {
+    .vtex-flex-layout-0-x-flexColChild--filterCol  {
+        height: auto !important;
+        .vtex-search-result-3-x-filter__container--title {
+            border: 0;
+        }
+        .vtex-search-result-3-x-filterMessage {
+            display: none;
+        }
+        .vtex-checkbox__container {
+            margin-top: 4px;
+            .vtex-checkbox__inner-container {
+
+            }
+        }
+    }
+}
+%search_col-right {
+    .vtex-search-result-3-x-gallery {
+        padding-left: 15px;
+    }
+}
+%search_filter-button {
+    
+    .vtex-search-result-3-x-filterPopupTitle {
+        color: $color-primary-light;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+        text-transform: none;
+    }
+    .vtex-search-result-3-x-filterPopupArrowIcon {
+        display: none
+    }   
+}
+.vtex-flex-layout-0-x-flexCol--filterMobileCol {
+    padding: 0 20px;
+    .justify-center {
+        justify-content: flex-start; 
+    }
+}
+.vtex-search-result-3-x-totalProducts--layout  {
+    @include for-mobile {
+        padding: 19px 0 0;
+    }
+}
+.vtex-search-result-3-x-galleryTitle--layout {
+    @extend %search_category-title;
+}
+.vtex-search-result-3-x-orderBy--layout {
+    @extend %select_search_order-input;
+    @extend %select_search_order-arrow;
+}
+.vtex-flex-layout-0-x-flexCol--filterCol {
+    @extend %seach_col-filter;
+}
+.vtex-flex-layout-0-x-flexCol--col-right {
+    @extend %search_col-right;
+}
+.vtex-search-result-3-x-filterPopupButton {
+    @extend %search_filter-button;
+}

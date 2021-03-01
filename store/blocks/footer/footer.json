@@ -1,0 +1,244 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-11-desktop"
+    ]
+  },
+  "flex-layout.row#footer-11-desktop": {
+    "children": [
+      "flex-layout.col#footer-1",
+      "flex-layout.col#footer-2"
+    ],
+    "props": {
+      "blockClass": "row-container" 
+    }
+  },
+  "flex-layout.col#footer-1": {
+    "children": [
+      "image#logo-foot",
+      "rich-text#site-link",
+      "rich-text#footer"
+    ],
+    "props": {
+      "width": "33%"
+    }
+  }
+  ,
+  "flex-layout.col#footer-2": {
+    "children": [
+      "flex-layout.row#footer-12-desktop",
+      "flex-layout.row#footer-13-desktop",
+      "flex-layout.row#footer-developed-desktop"
+    ],
+    "props": {
+      "width": "66%"
+    }
+  },
+  "flex-layout.row#footer-12-desktop": {
+    "children": [
+      "flex-layout.col#footer-12-1-desktop",
+      "flex-layout.col#footer-12-2-desktop",
+      "flex-layout.col#footer-12-3-desktop"
+    ]
+  },
+  "flex-layout.col#footer-12-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#institucional"
+    ]
+  },
+  "flex-layout.col#footer-12-2-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#politicas"
+    ]
+  },
+  "flex-layout.col#footer-12-3-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#ajuda"
+    ]
+  },
+  "flex-layout.row#footer-13-desktop": {
+    "children": [
+      "flex-layout.col#footer-13-1-desktop",
+      "flex-layout.col#footer-13-2-desktop"
+    ],
+    "props": {
+      "blockClass": "row-pay" 
+    } 
+  },
+  "flex-layout.col#footer-13-1-desktop": {
+    "children": [
+      "image#logo-pay"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#footer-13-2-desktop": {
+    "children": [
+      "social-networks"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#footer-developed-desktop": {
+    "children": [
+      "flex-layout.col#footer-developed-1-desktop",
+      "flex-layout.col#footer-developed-2-desktop"
+    ],
+    "props": {
+      "blockClass": "row-dev",
+      "marginTop": 6
+    }
+  },
+  "flex-layout.col#footer-developed-1-desktop": {
+    "children": [
+      "image#footer-plataforma"
+    ],
+    "props": {
+      "blockClass": "col-dev"
+    }
+  },
+  "flex-layout.col#footer-developed-2-desktop": {
+    "children": [
+      "image#footer-dev"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#logo-foot": {  
+      "props": {  
+        "src": "assets/logo_new2.png"  
+      }  
+  },
+  "image#logo-pay": {  
+      "props": {  
+        "src": "assets/payment_logo.png"  
+      }  
+  },
+  "image#footer-plataforma": {  
+    "props": {  
+      "src": "assets/footer_plataforma.png"  
+    }  
+  },
+  "image#footer-dev": {  
+    "props": {  
+      "src": "assets/footer_dev.png"  
+    }  
+  },
+  "image#footer-dev-mobile": {  
+    "props": {  
+      "src": "assets/logo_dev_mobile.png",
+      "blockClass": "logo-dev"  
+    }  
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-bags",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "marginTop": 6,
+      "blockClass": "row-container",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": { 
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/lojasafubra/"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/lojasafubra/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "row-container"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#site-link": {
+    "props": {
+      "text": "site@afubra.com.br",
+      "blockClass": "footer-site"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Todos os direitos reservados. AGRO-COMERCIAL AFUBRA LTDA CNPJ: 74.072.513/0044-84",
+      "blockClass": "footer-copy"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile"
+    ]
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "flex-layout.col#1-footer-mobile"
+    ]
+  },
+  "flex-layout.col#1-footer-mobile": {
+    "children": [
+      "social-networks",
+      "vtex.menu@2.x:menu#footer-mobile",
+      "image#logo-pay",
+      "image#logo-foot",
+      "rich-text#footer",
+      "image#footer-dev-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  }
+}

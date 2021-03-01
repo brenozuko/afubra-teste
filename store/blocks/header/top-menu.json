@@ -1,0 +1,91 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "blockClass": "menu-top"
+    }, 
+    "children": [
+      "menu-item#item3",
+      "menu-item#item4"
+    ]
+  },
+  "menu-item#item1": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Área do associado",
+        "text": "Área do associado"
+      }
+    }
+  },
+  "menu-item#item2": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pagamento do carnê",
+        "text": "Pagamento do carnê"
+      }
+    }
+  },
+  "menu-item#item3": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://solar.lojasafubra.com.br/",
+        "noFollow": false,
+        "tagTitle": "Energia Solar",
+        "text": "Energia Solar"
+      }
+    }
+  },
+  "menu-item#item4": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://afubra.com.br/viveiro-agroflorestal.html",
+        "noFollow": false,
+        "tagTitle": "Orçamento mudas",
+        "text": "Orçamento mudas"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  }
+}

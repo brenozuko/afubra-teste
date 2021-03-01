@@ -1,0 +1,53 @@
+.minicartContainer :global(.vtex-button):focus,
+.minicartContainer :global(.vtex-button):hover {
+    outline: 0;
+    background: none;
+}
+.minicartContainer  :global(.vtex-button__label){
+    background: #dfdfdf;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;  
+}
+.minicartIconContainer {
+    background: url("assets/ico_mini-cart2.png") no-repeat;
+    width: 34px;
+    height: 31px;
+}
+.minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon) {
+    display: none;
+}
+
+:global(.vtex-minicart-2-x-minicartTitle) {
+    color: #018247;
+}
+  
+:global(.vtex-product-list-0-x-productName){
+    color: #018247;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+:global(.vtex-product-list-0-x-productBrandName){
+    display: none;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemPrice) :last-child{
+    font-size: 26px;
+    color: #018247;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemPrice) :first-child{
+    font-size: 20px;
+    color: #333;
+}

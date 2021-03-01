@@ -1,0 +1,4 @@
+$store-name: "afubra"; 
+
+@import url("https://lojasafubra.vtexassets.com/assets/vtex/assets-builder/vtex.store-theme/3.41.0/#{$store-name}.css?v=#{random(300)}");
+@import url("http://localhost/#{$store-name}.css?v=#{random(300)}");   

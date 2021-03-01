@@ -1,0 +1,261 @@
+{
+    "vtex.menu@2.x:menu#institucional": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#institucional",
+            "menu-item#inst-1",
+            "menu-item#inst-2"
+        ]
+    },
+    "menu-item#institucional": {
+        "props": {
+          "id": "menu-item-inst",
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "blockClass": "menu-title",
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Institucional",
+            "text": "Institucional"
+          }
+        }
+    },
+    "menu-item#inst-1": {
+        "props": {
+          "id": "menu-item-inst-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/quem-somos",
+            "noFollow": false,
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
+          }
+        }
+    },
+    "menu-item#inst-2": {
+        "props": {
+          "id": "menu-item-inst-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/a-historia",
+            "noFollow": false,
+            "tagTitle": "História",
+            "text": "História"
+          }
+        }
+    },
+    "menu-item#inst-3": {
+        "props": {
+          "id": "menu-item-inst-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Notícias",
+            "text": "Notícias"
+          }
+        }
+    },
+    "menu-item#inst-4": {
+        "props": {
+          "id": "menu-item-inst-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Crie sua loja",
+            "text": "Crie sua loja"
+          }
+        }
+    },
+    "vtex.menu@2.x:menu#politicas": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#politicas",
+            "menu-item#pol-1",
+            "menu-item#pol-2",
+            "menu-item#pol-3"
+        ]
+    },
+    "menu-item#politicas": {
+        "props": {
+          "id": "menu-item-inst",
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "blockClass": "menu-title",
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Políticas",
+            "text": "Políticas"
+          }
+        }
+    },
+    "menu-item#pol-1": {
+        "props": {
+          "id": "menu-item-pol-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/formas-de-pagamento",
+            "noFollow": false,
+            "tagTitle": "Formas de Pagamento",
+            "text": "Formas de Pagamento"
+          }
+        }
+    },
+    "menu-item#pol-2": {
+        "props": {
+          "id": "menu-item-pol-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/trocas-e-devoluces",
+            "noFollow": false,
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        }
+    },
+    "menu-item#pol-3": {
+        "props": {
+          "id": "menu-item-pol-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/prazos-e-entrega",
+            "noFollow": false,
+            "tagTitle": "Prazos e Entrega",
+            "text": "Prazos e Entrega"
+          }
+        }
+    },
+    "vtex.menu@2.x:menu#ajuda": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#ajuda",
+            "menu-item#ajud-1",
+            "menu-item#ajud-2",
+            "menu-item#ajud-3",
+            "menu-item#ajud-4",
+            "menu-item#ajud-5"
+        ]
+    },
+    "menu-item#ajuda": {
+        "props": {
+          "id": "menu-item-inst",
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "blockClass": "menu-title",
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Ajuda",
+            "text": "Ajuda"
+          }
+        }
+    },
+    "menu-item#ajud-1": {
+        "props": {
+          "id": "menu-item-ajud-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/perguntas-frequentes",
+            "noFollow": false,
+            "tagTitle": "Perguntas Frequentes",
+            "text": "Perguntas Frequentes"
+          }
+        }
+    },
+    "menu-item#ajud-2": {
+        "props": {
+          "id": "menu-item-ajud-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/como-comprar",
+            "noFollow": false,
+            "tagTitle": "Como Comprar",
+            "text": "Como Comprar"
+          }
+        }
+    },
+    "menu-item#ajud-3": {
+        "props": {
+          "id": "menu-item-ajud-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fale-conosco",
+            "noFollow": false,
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        }
+    },
+    "menu-item#ajud-4": {
+        "props": {
+          "id": "menu-item-ajud-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "https://listapresntes.lojasafubra.com.br/",
+            "noFollow": false,
+            "tagTitle": "Lista de Presentes",
+            "text": "Lista de Presentes"
+          }
+        }
+    },
+    "menu-item#ajud-5": {
+        "props": {
+          "id": "menu-item-ajud-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "https://cartaopresente.lojasafubra.com.br/",
+            "noFollow": false,
+            "tagTitle": "Cartão Presente",
+            "text": "Cartão Presente"
+          }
+        }
+    } 
+}

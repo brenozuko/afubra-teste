@@ -1,0 +1,111 @@
+{
+    "flex-layout.row#mosaico": {
+      "children": [
+        "flex-layout.col#mosaico1",
+        "flex-layout.col#mosaico2"
+      ],
+      "props": {
+        "blockClass": "mosaico-row",
+        "marginBottom": 5
+      }
+    },
+
+    "flex-layout.col#mosaico1": {
+      "children": [
+        "flex-layout.row#submosaico1"
+      ],
+      "props":{
+        "blockClass": "mosaico1",
+        "width": "50%"
+      }
+    },
+    "flex-layout.row#submosaico1":{
+      "children":[
+        "image#mosaico1"
+      ]
+    },
+
+    "flex-layout.row#mosaico2":{
+      "children": [
+        "image#mosaico2"
+      ],
+      "props": {
+        "marginBottom": 6,
+        "blockClass": "mosaico-row",
+        "width": "46.4%",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.row#mosaico3":{
+      "children": [
+        "flex-layout.col#submosaico3_1",
+        "flex-layout.col#submosaico3_2"
+      ]
+    },
+    "flex-layout.col#submosaico3_1": {
+      "children": [
+        "image#mosaico3"
+      ],
+      "props":{
+        "blockClass": "mosaico31"
+      }
+    },
+    "flex-layout.col#submosaico3_2": {
+      "children": [
+        "image#mosaico4"
+      ],
+      "props":{
+        "blockClass": "mosaico32",
+        "horizontalAlign": "right"
+      }
+    },
+
+    "image#mosaico1": {
+      "props": {
+        "src": "assets/banners/mosaicos_1.png",
+        "blockClass": "img-mosaico",
+        "width": "100%"
+      }
+    },
+
+    "flex-layout.col#mosaico2": {
+      "children": [
+        "flex-layout.row#mosaico2",
+        "flex-layout.row#mosaico3"
+      ],
+      "props": {
+        "blockClass": "col-mosaico2"
+      }
+    },
+    "image#mosaico2": {
+      "props": {
+        "src": "assets/banners/mosaicos_2.png",
+        "blockClass": "img-mosaico",
+        "width": "100%"
+      }
+    },
+
+    "image#mosaico3": {
+      "props": {
+        "src": "assets/banners/mosaicos_3.png",
+        "blockClass": "img-mosaico",
+        "width": "100%"
+      }
+    },
+    "flex-layout.col#mosaico4": {
+      "children": [
+        "image#mosaico4"
+      ],
+      "props": {
+        "width": "50%"
+      }
+    },
+    "image#mosaico4": {
+      "props": {
+        "src": "assets/banners/mosaicos_4.png",
+        "blockClass": "img-mosaico",
+        "width": "100%"
+      }
+    }
+  }
+  

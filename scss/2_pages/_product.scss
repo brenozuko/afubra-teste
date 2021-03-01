@@ -1,0 +1,395 @@
+%prod_name {
+    .vtex-store-components-3-x-productBrand {
+        font-size: 30px;
+        font-weight: bold;
+        color: $color-primary;
+        @include for-mobile {       
+            text-align: center;
+            font-size: 16px;
+            line-height: 22px;
+            display: block;
+            padding: 0 10px;
+        }
+    }
+}
+%prod_code {
+    .vtex-product-identifier-0-x-product-identifier--productReference {
+        @include for-mobile {
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        span {
+            color: #4A4A4A;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+}
+%prod_buy-button {
+    .vtex-flex-layout-0-x-flexColChild--button-buy {
+        @include for-mobile {
+            text-align: center;
+            padding: 15px 0; 
+        }
+        .b--action-primary { 
+            background: $color-primary-light; 
+            border: 0;
+            height: 65px;
+            font-size: 30px;
+            font-family: $font-custom;
+            font-weight: bold;
+            letter-spacing: 1.3px;
+            text-transform: none;
+            border-radius: 10px;
+            max-width: 248px;
+            float: right;
+            span {
+                text-transform: none;
+            }
+            @include for-mobile {
+                float: none !important;
+            }
+            &:hover {
+                background:  darken($color: $color-primary-light, $amount: 10%);
+            }
+        }
+    }
+    
+}
+
+%prod_price{
+    .vtex-flex-layout-0-x-flexRow--prd-selling-price {
+        @include for-mobile {
+           > div {
+            @include flexbox(flex, column, wrap, center, center, center);
+           }
+        }
+        .vtex-flex-layout-0-x-stretchChildrenWidth  {
+            @include for-mobile {
+                width: 100% !important;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+        }
+        .vtex-product-price-1-x-sellingPrice {
+            .vtex-product-price-1-x-currencyContainer {
+                color: $color-primary-light;
+                font-size: 50px;
+            }
+        }
+    }
+}
+%prod_parcel {
+    .vtex-product-price-1-x-installments--prod-installment {
+        color: #4A4A4A;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+%prod_shipping {
+    .vtex-store-components-3-x-shippingContainer {
+        margin-top: 20px;
+        @include flexbox(flex, row, wrap, space-between, center, center);   
+        @include for-mobile {
+            margin-bottom: 10px;
+        }
+        form {
+            width: auto;
+            @include for-mobile {
+                width: 100%;
+            }
+        }
+        .vtex-address-form__postalCode {
+            .vtex-input {
+                @include flexbox(flex, row, wrap, flex-start, center, center);
+                .vtex-input__label {
+                    width: auto;
+                    font-size: 0;
+                    margin: 0 30px 0 0; 
+                    @include for-mobile {
+                        margin: 0 auto; 
+                    }
+                    &::before {
+                        content: "Calcule o Frete";
+                        text-transform: uppercase;
+                        color: $color-primary;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .vtex-input-prefix__group {
+                border: $border-input;
+                border-radius: 10px;
+                width: 47%;
+                text-align: center;
+                input {
+                    text-align: center;
+                    padding: 0;
+                    color: $color-primary;
+                    font-size: 15px;
+                }
+                .c-muted-2 {
+                    padding: 0;
+                }
+            }
+            .pt4.flex-none {
+                display: none;
+            }
+        }
+        .vtex-button {
+            width: 39%;
+            border-radius: 10px;
+            color: $color-primary;
+            font-weight: bold;
+            border: 2px solid $color-primary;
+            height: 38px;
+            font-size: 0;
+            @include for-mobile {
+                display: none;
+            }
+           &.b--action-primary {
+               color: #fff;
+           }
+            .vtex-button__label {
+                @include flexbox(flex, row, wrap, center, center, center);
+                &::before {
+                    content: "Calcular";
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+%prod_image {
+    .vtex-store-components-3-x-productImagesContainer {
+        .vtex-store-components-3-x-swiperCaret {
+            color: $color-primary-light;
+            &.c-disabled {
+                color: #ccc;
+            }
+        }
+        .vtex-store-components-3-x-swiper-pagination {
+            > span {
+                color: #ccc;
+                width: 15px;
+                height: 15px;
+                border: 2px solid #A3A3A3;
+                &.vtex-store-components-3-x-swiperBullet--active {
+                    color: $color-primary-light;
+                }
+            }
+        }
+    }
+    .vtex-store-components-3-x-productImagesThumb {
+        border: 2px solid $color-primary-light;
+        padding-right: 1px;
+        &.vtex-store-components-3-x-productImagesThumbActive {
+            border-color: $color-primary;
+        }
+    }
+}
+%prod_description {
+    .vtex-flex-layout-0-x-flexRow--product-description {
+        .t-heading-5 {
+            text-transform: uppercase;
+            color: $color-primary;
+            font-family: $font-custom;
+            font-size: 16px;
+            font-weight: bold;
+            display: none;
+        }
+        .vtex-store-components-3-x-content  {
+            line-height: 25px;
+            font-size: 14px;
+            color: #373532;
+        }
+    }
+}
+%prod_specification {
+    .vtex-flex-layout-0-x-flexRow--specifications {
+        .pl8-l {
+            padding: 0;
+        }
+        .t-heading-5 {
+            text-transform: uppercase;
+            color: $color-primary;
+            font-family: $font-custom;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .vtex-store-components-3-x-specificationsTable  {
+            thead {
+                display: none;
+            }
+            tr {
+                font-family: $font-custom;
+                font-size: 16px;
+                &:nth-child(even) {
+                    background-color: #f4f4f4;
+                }
+                td {
+                    &:first-child {
+                        width: 20%;  
+                    }
+                    &:last-child {
+                        font-weight: bold;
+                        color: #373532;
+                    }
+                }
+            }
+            td {
+                border: 0;
+                padding: 10px 10px;
+            }
+            .w-50 {
+                width: auto
+            }
+        }
+    }
+    .vtex-store-components-3-x-specificationsTableContainer {
+        @include for-mobile {
+            margin-top: 0;
+        }
+    }
+}
+%prod_layout {
+    @include for-mobile {
+        padding: 0;
+       div[style] {
+           > .flex.flex-grow-1.w-100.flex-column {
+               padding: 0 10px
+           }
+       }
+    }
+    .vtex-flex-layout-0-x-flexCol--right-col {
+        @include for-mobile {
+            @include flexbox(flex, column, wrap, flex-start, center, center);
+            > div {
+                order: 20;
+                &:first-child { order: 1}
+                &:nth-child(2n) { order: 2}
+                &:nth-child(3n) { order: 3}
+                &:nth-child(4n) { order: 4}
+                &:nth-child(5n) { order: 5}
+                &:nth-child(6n) { order: 6}
+                &:nth-child(7n) { order: 7}
+            }
+        }
+    }
+    .swiper-wrapper {
+        padding-bottom: 22px; 
+    }
+}
+%prod_related { 
+    .vtex-shelf-1-x-relatedProducts {
+        .vtex-shelf-1-x-title {
+            text-transform: uppercase;
+            color: $color-primary;
+            font-family: $font-custom;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+    .vtex-shelf-1-x-relatedProducts--similars {
+        .vtex-product-summary-2-x-nameContainer,
+        .vtex-slider-0-x-dotsContainer,
+        .vtex-modal-layout-0-x-triggerContainer { 
+            display: none; 
+        }
+        .vtex-shelf-1-x-title,
+        .vtex-slider-0-x-sliderFrame {
+            justify-content: flex-start;
+        }
+        .vtex-product-summary-2-x-container {
+            &:hover {
+                border: 0 !important;
+            }
+        }
+    }
+}
+%prod_review {
+    @at-root div:nth-child(4n) div.vtex-reviews-and-ratings-1-x-summaryContainer {
+        display: none;
+    }
+    .vtex-flex-layout-0-x-flexColChild--review-col {
+        border-bottom: 1px solid #D6D6D6;
+        border-top: 1px solid #D6D6D6;
+        padding: 20px 0;
+        &:last-child {
+            display: none;
+        }
+    }
+    .vtex-reviews-and-ratings-1-x-star--filled,
+    .vtex-reviews-and-ratings-1-x-star--empty {
+            color: $color-primary-light;
+    }
+    .vtex-reviews-and-ratings-1-x-container {
+        h3 {
+            display: none;
+            text-transform: uppercase;
+            color: $color-primary;
+            font-family: $font-custom;
+            font-size: 16px;
+            font-weight: bold;
+            border: 0;
+        }
+        .vtex-reviews-and-ratings-1-x-writeReviewContainer {
+            
+            a {
+                padding: 0;
+                color: $color-primary;
+                font-family: $font-custom;
+            }
+        }
+        .vtex-reviews-and-ratings-1-x-formContainer {
+            background: #fff;
+        }
+        
+        .review__rating {
+            > span {
+                display: none;
+            }
+        }
+        .vtex-reviews-and-ratings-1-x-writeReviewContainer {
+            .c-action-primary.mr3.self-center {
+                
+                &::after {
+                    content: "AVALIAR";
+                    margin-left: 5px;
+                    color: $color-primary-light;
+                }
+            }
+            .flex-grow-1 {
+                display: none;
+            }
+        }
+        .review__comments {
+            h5 {
+                font-family: $font-custom;
+                font-size: 16px;
+            }
+            a {
+                color: $color-link;
+                font-family: $font-custom;
+            }
+        }
+    }
+}
+.vtex-product-context-provider {
+
+    @extend %prod_name;
+    @extend %prod_code;
+    @extend %prod_buy-button;
+    @extend %prod_price;
+    @extend %prod_parcel;
+    @extend %prod_shipping;
+    @extend %prod_image;
+    @extend %prod_description;
+    @extend %prod_specification;
+    @extend %prod_layout;
+    @extend %prod_related;
+    @extend %prod_review ;
+}

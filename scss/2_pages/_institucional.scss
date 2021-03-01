@@ -1,0 +1,26 @@
+.vtex-flex-layout-0-x-flexRow--page-institucional {
+    padding: 50px 20px;
+    @include for-desktop {
+        padding: 50px 0;
+    }
+    h1,h2,h3 {
+        color: $color-primary;
+    }
+    h1 {
+        font-size: 26px; 
+    }
+    h2 {
+        font-size: 23px; 
+    }
+    p {
+        margin-bottom: 10px;
+        line-height: 29px;
+    }
+    .vtex-flex-layout-0-x-flexCol--image-folha {
+        margin: 46px 0 0 50px;
+        img {
+            border-top-left-radius: 29px;
+            border-bottom-right-radius: 29px;
+        }
+    }
+}

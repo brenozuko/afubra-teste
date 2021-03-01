@@ -1,0 +1,307 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "blockClass": "main-menu",
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#menu-1",
+      "menu-item#menu-2",
+      "menu-item#menu-3",
+      "menu-item#menu-4",
+      "menu-item#menu-5",
+      "menu-item#menu-6",
+      "menu-item#menu-7"
+    ]
+  },
+  "menu-item#menu-1": {
+    "props": {
+      "id": "menu-item-menu-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Menu"
+      },
+      "iconProps": {
+        "id": "icon-menu",
+        "size": 16,
+        "viewBox": "0 0 21 21", 
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      
+    ]
+  },
+  "menu-item#menu-2": {
+    "props": {
+      "id": "menu-item-2",
+      "categoryId": 1,
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
+      },
+      "iconProps": {
+        "id": "ico-eletrodomestico",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706", 
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-2"
+    ]
+  },
+  "menu-item#menu-3": {
+    "props": {
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Eletroportáteis",
+        "text": "Eletroportáteis"
+      },
+      "iconProps": {
+        "id": "ico_eletro",
+        "size": 30,
+        "viewBox": "0 0 25.175 30.826", 
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-3"
+    ]
+  },
+  "menu-item#menu-4": {
+    "props": {
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Móveis e Decoração",
+        "text": "Móveis e Decoração"
+      },
+      "iconProps": {
+        "id": "ico_moveis",
+        "size": 34,
+        "viewBox": "0 0 30.542 34", 
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-4"
+    ]
+  },
+  "menu-item#menu-5": {
+    "props": {
+      "id": "menu-item-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Casa e Construção",
+        "text": "Casa e Construção"
+      },
+      "iconProps": {
+        "id": "ico_casa",
+        "size": 32,
+        "viewBox": "0 0 32 32", 
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-5"
+    ]
+  },
+  "menu-item#menu-6": {
+    "props": {
+      "id": "menu-item-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Máquinas e Ferramentas",
+        "text": "Máquinas e Ferramentas"
+      },
+      "iconProps": {
+        "id": "ico_maquina",
+        "size": 44,
+        "viewBox": "0 0 44 30", 
+        "activeClassName": "vtex-ico_maquina",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-6"
+    ]
+  },
+  "menu-item#menu-7": {
+    "props": {
+      "id": "menu-item-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Campo e Jardim",
+        "text": "Campo e Jardim"
+      },
+      "iconProps": {
+        "id": "ico_campo",
+        "size": 35,
+        "viewBox": "0 0 35 35", 
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-7"
+    ]
+  },
+
+
+  "vtex.menu@2.x:submenu.accordion#menu-1": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-1": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 1
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-2": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-2": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 1
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-3": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-3": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 2
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-4": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-4": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 3
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-5": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-5"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-5": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 4
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-6": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-6"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-6": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 5 
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-7": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-7"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-7": {
+    "props": {
+      "orientation": "vertical",
+      "categoryId": 6 
+    }
+  }
+}

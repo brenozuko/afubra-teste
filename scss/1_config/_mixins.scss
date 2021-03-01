@@ -1,0 +1,91 @@
+
+@mixin flexbox($fb-display, $fb-direction, $fb-wrap, $fb-justify, $fb-align-items, $fb-align-content){
+    //display: flex or inline-flex */
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: $fb-display;
+
+    //flex-direction: row | row-reverse | column | column-reverse;
+    -webkit-flex-direction: $fb-direction;
+    -moz-flex-direction: $fb-direction;
+    -ms-flex-direction: $fb-direction;
+    -o-flex-direction: $fb-direction;
+    flex-direction: $fb-direction;
+    
+
+    //flex-wrap: nowrap | wrap | wrap-reverse;
+    -webkit-flex-wrap: $fb-wrap;
+    -moz-flex-wrap: $fb-wrap;
+    -ms-flex-wrap: $fb-wrap;
+    -o-flex-wrap: $fb-wrap;
+    flex-wrap: $fb-wrap;
+
+    //justify-content: flex-start | flex-end | center | space-between | space-around;
+    -webkit-justify-content: $fb-justify;
+    -moz-justify-content: $fb-justify;
+    -ms-justify-content: $fb-justify;
+    -o-justify-content: $fb-justify;
+    justify-content: $fb-justify;
+
+    //align-items: flex-start | flex-end | center | baseline | stretch;
+    -webkit-align-items: $fb-align-items;
+    -moz-align-items: $fb-align-items;
+    -ms-align-items: $fb-align-items;
+    -o-align-items: $fb-align-items;
+    align-items: $fb-align-items;
+
+    //align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+    -webkit-align-content: $fb-align-content;
+    -moz-align-content: $fb-align-content;
+    -ms-align-content: $fb-align-content;
+    -o-align-content: $fb-align-content;
+    align-content: $fb-align-content;
+
+}
+@mixin crossB-property($property, $value) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    -ms-#{$property}: $value;
+    -o-#{$property}: $value;
+    #{$property}: $value;
+}
+
+@mixin crossB-value($property, $value) {
+    #{$property}: -webkit-#{$value};
+    #{$property}: -moz-#{$value};
+    #{$property}: -ms-#{$value};
+    #{$property}: -o-#{$value};
+    #{$property}: $value;
+}
+@mixin order($val) {
+    -webkit-box-ordinal-group: $val;  
+       -moz-box-ordinal-group: $val;     
+             -ms-flex-order: $val;     
+              -webkit-order: $val;  
+                  order: $val;
+  }
+@mixin transition($time: 0.2s, $timingFunction: ease-in-out, $property: all) {
+    transition: $property $timingFunction $time;
+}
+@mixin clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+@mixin for-mobile {
+    @media (max-width: $breakpoint-mobile) { @content; }
+}
+@mixin for-tablet {
+    @media (min-width: $breakpoint-tablet) { @content; }
+}
+@mixin for-desktop {
+    @media (min-width: $breakpoint-desktop) { @content; }
+}
+@mixin for-large-desktop {
+    @media (min-width: $breakpoint-desktop-large) { @content; }
+}

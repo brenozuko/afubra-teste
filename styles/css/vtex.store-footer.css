@@ -1,0 +1,78 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--row-pay){
+  justify-content: space-between;
+}
+.footerLayout  :global(.vtex-flex-layout-0-x-flexRowContent--row-dev){
+  justify-content: space-between;
+}
+.footerLayout.row-dev {
+
+}
+.row--payment-methods {
+  padding-top: 16px;
+}
+.footerLayout {
+  background: #E7E6E5;
+  margin-top: 20px !important;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink) {
+  font-weight: bold;
+  color: #585858;
+  font-size: 16px;
+}
+.footerLayout :global(.vtex-menu-2-x-styledLinkContent--menu-title){
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #018247; 
+  cursor: default;
+  font-size: 16px;
+}
+.socialNetworkWrapper {
+  margin-right: 60px;
+}
+.socialNetworkLink {
+  background-image: url("assets/ico_face.png");
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+  display: block;
+  background-size: 100% auto;
+  margin-left: 20px;
+}
+.socialNetworkLink--youtube {
+  background-image: url("assets/ico_youtube.png");
+}
+.socialNetworkLink--instagram {
+  background-image: url("assets/ico_insta.png");
+}
+.socialNetworkImage {
+  display: none;
+}
+.footerLayout :global(.vtex-rich-text-0-x-link--footer-site) {
+  text-decoration: none;
+  color: #585858; 
+}
+.footerLayout :global(.vtex-rich-text-0-x-wrapper--footer-copy) {
+  color: #585858;
+  font-size: 12px;
+}
+@media screen and (min-width: 80rem) {
+  .footerLayout :global(.vtex-flex-layout-0-x-flexRow--row-container) {
+    padding: 50px 30px;
+  }
+  .footerLayout :global(.vtex-rich-text-0-x-link--footer-site) {
+    margin-left: 40px;
+  }
+  .footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--row-dev) {
+    margin-left: 20px;
+  }
+  .footerLayout :global(.vtex-rich-text-0-x-wrapper--footer-copy) {
+    padding-left: 38px;
+    max-width: 350px;
+  }
+  
+}

@@ -1,0 +1,162 @@
+/*Menu deskop*/
+.vtex-menu-2-x-menuContainerNav--main-menu {
+    .vtex-menu-2-x-submenuContainer {
+        .vtex-menu-2-x-styledLink {
+            color: #000;
+        }
+        
+    }
+    .vtex-menu-2-x-menuContainer {
+        > li:last-child {
+            .vtex-menu-2-x-submenuWrapper {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+}
+
+ul > div.vtex-menu-2-x-styledLinkContainer{
+    display: none;
+}
+
+.vtex-checkout-summary-0-x-summaryItemContainer {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#proceed-to-checkout {
+    background: #7eb218;
+}
+
+button#proceed-to-checkout div {
+    font-size: 0;
+}
+
+button#proceed-to-checkout div:before {
+    content: "Ir para o Carrinho";
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.vtex-menu-2-x-menuContainerNav ul > div {
+    display: none;
+}
+
+.vtex-menu-2-x-menuContainerNav a:hover{
+    text-decoration: underline;
+}
+
+.vtex-store-components-3-x-searchBarInnerContainer--search-mobile {
+    padding: 0 11px;
+    .vtex-input-prefix__group {
+        max-width: 100%; 
+    }
+    span.vtex-input__suffix {
+        @include for-mobile {
+            background: none;
+        }
+        .vtex-store-components-3-x-searchBarIcon {
+            &::after {
+                display: none;
+                @include for-desktop {
+                    display: block;
+                }
+            }
+        }
+        .vtex-store-components-3-x-searchIcon--search-mobile {
+            color: $color-primary;
+        }
+    }
+
+}
+/*Menu Mobile*/
+.vtex-store-drawer-0-x-drawer {
+    min-width: 375px !important;
+    .vtex-store-drawer-0-x-childrenContainer {
+        .vtex-menu-2-x-menuContainerNav {
+            width: 100%;
+            position: relative;
+            z-index: 2;
+            background: #7EB218;
+        }
+    }
+    .vtex-menu-2-x-submenuAccordion {
+        .vtex-menu-2-x-styledLinkContent {
+            font-size: 14px;
+            font-weight: normal;
+            padding: 5px 0 5px 48px; 
+        }
+        .vtex-menu-2-x-menuContainer  {
+            > div {
+                display: none;
+            }
+        }
+    }
+}
+.vtex-minicart-2-x-minicartWrapperContainer {
+
+    .vtex-minicart-2-x-minicartQuantityBadgeDefault {
+        top: 0;
+        right: -29px;
+        width: 24px;
+        height: 24px;
+        color: $color-primary-light;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+.vtex-login-2-x-container {
+    .items-center.pv2 {
+        align-items: flex-start;
+    }
+    .vtex-login-2-x-label {
+        padding-left: 2px !important;
+    }
+    .vtex-login-2-x-profile {
+        display: block;
+        padding-top: 10px;
+    }
+    
+}
+div.vtex-flex-layout-0-x-flexRow--minha-conta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    button {
+        background-color: $color-primary;
+        width: calc(100vw - 75px);
+        padding: 15px 0;
+        border-bottom-left-radius: 12px;
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $color-primary;
+        }
+    }
+    .vtex-login-2-x-label {
+        font-size: 0;
+        padding: 0;
+        &::before,
+        &::after {
+            background: none;
+            content: "Entrar";
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            width: auto;
+            height: auto;
+            display: inline-block;
+            text-transform: none;
+        }
+        &::after {
+            content: "Criar Conta";
+            display: inline-block;
+            border-left: 2px solid #97C73A;
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+    }
+}

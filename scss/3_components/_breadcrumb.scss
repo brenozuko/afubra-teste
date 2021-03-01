@@ -1,0 +1,25 @@
+.vtex-breadcrumb-1-x-container {
+    border-bottom: 1px solid #D6D6D6;
+    margin-bottom: 25px;
+    > a,
+    svg {
+        display: none;
+    }
+    span {
+        font-weight: bold;
+        font-family: $font-custom;
+        padding: 0;
+        margin-right: 2px;
+        a {
+            color: #4A4A4A;
+            &:hover {
+                color: $color-link;
+            }
+            &::after {
+                content: ">";
+                color: #97C73A;
+                margin-left: 10px;
+            }
+        }
+    }
+}

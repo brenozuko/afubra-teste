@@ -1,0 +1,64 @@
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, #root {
+    height: 100vh;
+}
+body {
+    
+}
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    .hover-b--action-primary {
+        background-color: $color-primary;
+        border: 0;
+        span {
+            text-transform: uppercase;
+            font-family: $font-custom;
+            letter-spacing: initial;
+        }
+        &:focus,
+        &:hover {
+            background-color: darken($color: $color-primary, $amount: 5%);
+        } 
+    }
+    .c-link {
+        color: $color-link;
+        text-decoration: underline;
+    }
+    .c-on-action-secondary,
+    .c-action-primary {
+        color: $color-link;
+    }
+}
+body, 
+input,
+button,
+textarea {
+    
+}
+div.vtex-render-runtime-8-x-loadingBarAnimation {
+    background-color: $color-primary;
+}
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+body .hover-b--action-secondary {
+    &:hover,
+    &:active,
+    &:focus { 
+        background: none; 
+        border-color: transparent;
+    }
+}
+@media (min-width: 700px) {
+    
+}

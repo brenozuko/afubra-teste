@@ -1,0 +1,7 @@
+.container {
+    background: #fff;
+}
+.container :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+    max-width: 1290px; 
+    margin: 0 auto;
+}
