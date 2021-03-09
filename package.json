@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "vtex": "^2.123.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

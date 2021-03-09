@@ -10,7 +10,8 @@
       "menu-item#main_menu-4",
       "menu-item#main_menu-5",
       "menu-item#main_menu-6",
-      "menu-item#main_menu-7"
+      "menu-item#main_menu-7",
+      "menu-item#main_menu-8"
     ]
   },
   "menu-item#main_menu-1": {
@@ -194,6 +195,34 @@
       "vtex.menu@2.x:submenu#main_menu-7"
     ]
   },
+
+
+  "menu-item#main_menu-8": {
+    "props": {
+      "id": "menu-item-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "main-menu",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Todas",
+        "text": "Todas"
+      },
+      "iconProps": {
+        "id": "ico_todos",
+        "size": 35,
+        "viewBox": "0 0 35 35", 
+        "activeClassName": "all-categories",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#main_menu-8"
+    ]
+  },
   "vtex.menu@2.x:submenu#main_menu-2": {
     "children": [
       "vtex.menu@2.x:menu#menu-2"
@@ -223,5 +252,12 @@
     "children": [
       "vtex.menu@2.x:menu#menu-7"
     ]
+  },
+
+  "vtex.menu@2.x:submenu#main_menu-8": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-8"
+    ]
   }
+  
 }

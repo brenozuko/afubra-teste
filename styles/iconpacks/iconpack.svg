@@ -119,5 +119,28 @@
         </svg>
       </g>
 
+      <g id="ico_todos">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 21 21">
+          <g id="Grupo_191" data-name="Grupo 191" transform="translate(-1246 -165)">
+            <g id="Retângulo_563" data-name="Retângulo 563" transform="translate(1246 165)" fill="none" stroke="#fff" stroke-width="2">
+              <rect width="9" height="9" stroke="none"/>
+              <rect x="1" y="1" width="7" height="7" fill="none"/>
+            </g>
+            <g id="Retângulo_566" data-name="Retângulo 566" transform="translate(1246 177)" fill="none" stroke="#fff" stroke-width="2">
+              <rect width="9" height="9" stroke="none"/>
+              <rect x="1" y="1" width="7" height="7" fill="none"/>
+            </g>
+            <g id="Retângulo_564" data-name="Retângulo 564" transform="translate(1258 165)" fill="none" stroke="#fff" stroke-width="2">
+              <rect width="9" height="9" stroke="none"/>
+              <rect x="1" y="1" width="7" height="7" fill="none"/>
+            </g>
+            <g id="Retângulo_565" data-name="Retângulo 565" transform="translate(1258 177)" fill="none" stroke="#fff" stroke-width="2">
+              <rect width="9" height="9" stroke="none"/>
+              <rect x="1" y="1" width="7" height="7" fill="none"/>
+            </g>
+          </g>
+        </svg>
+      </g>
+
   </defs>
 </svg> 

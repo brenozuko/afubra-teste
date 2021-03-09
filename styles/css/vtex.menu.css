@@ -1,33 +1,38 @@
 .menuContainerNav--menu-top .styledLinkContent {
-    text-decoration: underline;
-    font-weight: bold;
-    color: #231F20;
-    text-transform: uppercase;
-    font-size: 11px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #231f20;
+  text-transform: uppercase;
+  font-size: 11px;
 }
 .menuContainerNav--menu-top .styledLinkContainer {
-   margin: 0 30px 0 0;  
+  margin: 0 30px 0 0;
 }
 .menuContainerNav--main-menu .styledLinkContainer--main-menu {
-    padding: 5px 23px;
-    margin: 0;
+  padding: 5px 23px;
+  margin: 0;
 }
 .menuContainerNav--main-menu .styledLinkContainer--main-menu:hover {
-    background-color: #018247;
+  background-color: #018247;
 }
 .styledLinkContent--main-menu {
-    display: flex;
-    align-items: center; 
-    height: 43px;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 43px;
+  font-weight: bold;
 }
 .menuContainerNav--main-menu .styledLinkIcon--main-menu {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .menuItem--menu-mobile-subcategorias {
-    border: 0 !important; 
+  border: 0 !important;
 }
 .menuContainer .styledLinkContent--menu-mobile-subcategorias {
-    font-weight: normal !important;
-} 
+  font-weight: normal !important;
+}
+
+.styledLinkIcon--main-menu {
+  display: flex;
+  align-items: center;
+}

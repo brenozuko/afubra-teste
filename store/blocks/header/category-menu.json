@@ -194,9 +194,38 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#menu-7"
+      "vtex.menu@2.x:submenu.accordion#menu-2"
     ]
   },
+
+
+  "menu-item#menu-8": {
+    "props": {
+      "id": "menu-item-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile-categorias",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Campo e Jardim",
+        "text": "Campo e Jardim"
+      },
+      "iconProps": {
+        "id": "ico_todas",
+        "size": 35,
+        "viewBox": "0 0 35 35", 
+        "activeClassName": "all-categories",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-8" 
+    ]
+  },
+
 
 
   "vtex.menu@2.x:submenu.accordion#menu-1": {
@@ -298,10 +327,233 @@
       "vtex.menu@2.x:menu#menu-7"
     ]
   },
+
   "vtex.menu@2.x:menu#menu-7": {
     "props": {
       "orientation": "vertical",
       "categoryId": 6 
     }
+  },
+
+
+  "vtex.menu@2.x:submenu.accordion#menu-8": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-mobile-categorias"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-8"
+    ]
+  },
+
+
+
+  "vtex.menu@2.x:menu#menu-8": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+
+        {
+          "id": "campo-jardim",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/campo-e-jardim",
+            "noFollow": false,
+            "tagTitle": "Campo e Jardim",
+            "text": "Campo e Jardim"
+          }
+        },
+        {
+          "id": "eletroportateis",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletroportáteis",
+            "noFollow": false,
+            "tagTitle": "Eletroportáteis",
+            "text": "Eletroportáteis"
+          }
+        },
+        {
+          "id": "moveis-decoracao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/moveis-e-decoracao",
+            "noFollow": false,
+            "tagTitle": "Móveis e Decoração",
+            "text": "Móveis e Decoração"
+          }
+        },
+        {
+          "id": "casa-construcao",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa-e-construcao",
+            "noFollow": false,
+            "tagTitle": "Casa e Construção",
+            "text": "Casa e Construção"
+          }
+        },
+
+        {
+          "id": "eletrodomesticos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletrodomesticos",
+            "noFollow": false,
+            "tagTitle": "Eletrodomésticos",
+            "text": "Eletrodomésticos"
+          }
+        },
+
+        {
+          "id": "energia-solar",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/energia-solar",
+            "noFollow": false,
+            "tagTitle": "Energia Solar",
+            "text": "Energia Solar"
+          }
+        },
+
+        {
+          "id": "esporte-lazer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/esporte-e-lazer",
+            "noFollow": false,
+            "tagTitle": "Esporte e Lazer",
+            "text": "Esporte e Lazer"
+          }
+        },
+
+        {
+          "id": "industrial-comercial",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/industrial-e-comercial",
+            "noFollow": false,
+            "tagTitle": "Industrial e Comercial",
+            "text": "Industrial e Comercial"
+          }
+        },
+
+        {
+          "id": "informatica",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/informatica",
+            "noFollow": false,
+            "tagTitle": "Informática",
+            "text": "Informática"
+          }
+        },
+
+        {
+          "id": "maquinas-ferramentas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquinas-e-ferramentas",
+            "noFollow": false,
+            "tagTitle": "Máquinas e Ferramentas",
+            "text": "Máquinas e Ferramentas"
+          }
+        },
+
+        {
+          "id": "telefonia",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/telefonia",
+            "noFollow": false,
+            "tagTitle": "Telefonia",
+            "text": "Telefonia"
+          }
+        },
+
+        {
+          "id": "tv-audio-video",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/tv-audio-e-video",
+            "noFollow": false,
+            "tagTitle": "TV Áudio e Vídeo",
+            "text": "TV Áudio e Vídeo"
+          }
+        },
+
+        {
+          "id": "utilidades-domesticas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-mobile-categorias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas",
+            "noFollow": false,
+            "tagTitle": "Utilidades Domésticas",
+            "text": "Utilidades Domésticas"
+          }
+        }
+
+
+
+
+
+
+
+        
+      ]  
+    }
   }
+
 }
