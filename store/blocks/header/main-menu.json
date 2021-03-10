@@ -208,8 +208,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Todas",
-        "text": "Todas"
+        "tagTitle": "Todos",
+        "text": "Todos"
       },
       "iconProps": {
         "id": "ico_todos",

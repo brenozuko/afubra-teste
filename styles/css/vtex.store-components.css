@@ -10,7 +10,7 @@
   text-decoration: underline;
 }
 
-:global(.vtex-store-components-3-x-searchBarContainer){
+:global(.vtex-store-components-3-x-searchBarContainer) {
   padding-top: 0;
 }
 
@@ -21,20 +21,20 @@
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   max-width: 100%;
 }
-.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder  {
-  color: #018247; 
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #018247;
 }
 .searchBarContainer :global(.vtex-input__suffix) {
   background-color: #018247;
 }
 .searchBarContainer :global(.vtex-input-prefix__group) {
-  height: 46px !important;   
+  height: 46px !important;
 }
 .searchBarIcon::after {
   content: "Buscar";
   color: #fff;
   margin-left: 10px;
-} 
+}
 .searchIcon--testeee {
   color: #fff;
 }
@@ -52,14 +52,14 @@
 }
 
 .newsletter .container {
-  padding: 0;  
+  padding: 0;
 }
-.newsletter .inputGroup :global(.vtex-button){
+.newsletter .inputGroup :global(.vtex-button) {
   background: #018247;
   text-transform: none;
   font-weight: bold;
 }
-.newsletter .inputGroup :global(.vtex-button__label){
+.newsletter .inputGroup :global(.vtex-button__label) {
   padding: 0.25em 20px;
 }
 .label {
@@ -103,19 +103,13 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
-.autoCompleteOuterContainer {
- 
-}
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
   border: 2px solid #7eb218;
   border-radius: 10px;
-  width: calc(100% - -137px); 
+  width: calc(100% - -137px);
 }
-@media only screen and (min-width: 640px) {
-  .newsletter .container {
-   
-  }
 
+@media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;
   }
@@ -162,7 +156,7 @@
   padding-right: 10px;
 }
 
-.vtex-flex-layout-0-x-flexRow--searchinfo{
+.vtex-flex-layout-0-x-flexRow--searchinfo {
   margin-bottom: 20px;
 }
 
