@@ -200,14 +200,14 @@
   },
   "rich-text#footer-address": {
     "props": {
-      "text": "ROD BR-471 KM 147 300 METROS PORTAO 17,  BAIRRO:DISTRITO INDUSTRIAL, CEP 96.835-642, MUNICÍPIO: SANTA CRUZ DO SUL, UF: RS",
-      "blockClass": "footer-copy"
+      "text": "Rod BR-471 KM 147 300 Metros Portão 17, Distrito Industrial, 96.835-642, Santa Cruz do Sul, RS",
+      "blockClass": "footer-address"
     }
   },
 
   "rich-text#footer-company-text": {
     "props": {
-      "text": "Todos os direitos reservados. AGRO-COMERCIAL AFUBRA LTDA CNPJ:  74.072.513/0044-84 teste",
+      "text": "Todos os direitos reservados. AGRO-COMERCIAL AFUBRA LTDA CNPJ:  74.072.513/0044-84",
       "blockClass": "footer-copy"
     }
   },
@@ -232,6 +232,7 @@
       "image#logo-pay",
       "image#logo-foot",
       "rich-text#footer-address",
+      "rich-text#footer-company-text",
       "image#footer-dev-mobile"
     ],
     "props": {
