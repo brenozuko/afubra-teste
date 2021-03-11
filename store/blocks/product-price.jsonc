@@ -83,7 +83,7 @@
   },
   "product-installments#product": {
     "props": {
-      "message": "Em até {installmentsNumber}x de {installmentValue}",
+      "message": "Em até {installmentsNumber}x de {installmentValue} sem juros",
       "blockClass": [
         "prod-installment"
       ]
