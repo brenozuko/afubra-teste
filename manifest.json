@@ -1,7 +1,7 @@
 {
   "vendor": "lojasafubra",
   "name": "store-theme",
-  "version": "5.4.0",
+  "version": "5.5.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
