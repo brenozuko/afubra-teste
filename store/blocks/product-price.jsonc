@@ -4,7 +4,9 @@
       "fullWidth": true,
       "preserveLayoutOnMobile": true,
       "marginBottom": 4,
-      "blockClass": ["prd-selling-price"]
+      "blockClass": [
+        "prd-selling-price"
+      ]
     },
     "children": [
       "flex-layout.col#col-price",
@@ -16,7 +18,9 @@
       "fullWidth": true,
       "preserveLayoutOnMobile": true,
       "marginBottom": 4,
-      "blockClass": ["prd-selling-price"] 
+      "blockClass": [
+        "prd-selling-price"
+      ]
     },
     "children": [
       "flex-layout.col#col-price"
@@ -26,7 +30,9 @@
     "props": {
       "colGap": 2,
       "marginBottom": 4,
-      "blockClass": ["button-buy"]
+      "blockClass": [
+        "button-buy"
+      ]
     },
     "children": [
       "flex-layout.col#col-buy-mobile"
@@ -43,22 +49,25 @@
   },
   "flex-layout.col#col-buy": {
     "props": {
-      "blockClass": ["button-buy"],
+      "blockClass": [
+        "button-buy"
+      ],
       "width": "50%"
-    },
-    "children": [  
-      "add-to-cart-button#button-prod"
-    ]
-  },
-  "flex-layout.col#col-buy-mobile": {
-    "props": {
-      "blockClass": ["button-buy"]
     },
     "children": [
       "add-to-cart-button#button-prod"
     ]
   },
-
+  "flex-layout.col#col-buy-mobile": {
+    "props": {
+      "blockClass": [
+        "button-buy"
+      ]
+    },
+    "children": [
+      "add-to-cart-button#button-prod"
+    ]
+  },
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
@@ -74,7 +83,10 @@
   },
   "product-installments#product": {
     "props": {
-      "blockClass": ["prod-installment"]
+      "message": "Em até {installmentsNumber}x de {installmentValue}",
+      "blockClass": [
+        "prod-installment"
+      ]
     }
   }
 }

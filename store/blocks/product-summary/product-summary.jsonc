@@ -84,7 +84,8 @@
   "product-installments#summary": {
     "props": {
       "spotPriceValue": "aewwww",
-      "blockClass": "summary"
+      "blockClass": "summary",
+      "hasInterest": false
     }
   },
   "product-selling-price#summary": {
