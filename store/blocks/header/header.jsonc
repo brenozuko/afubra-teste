@@ -48,7 +48,7 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#main-menu", 
+      "vtex.menu@2.x:menu#main-menu",
       "flex-layout.col#spacer"
     ]
   },
@@ -77,7 +77,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
-      "flex-layout.col#spacer", 
+      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ]
@@ -85,7 +85,7 @@
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",
-      "marginRight": 4 
+      "marginRight": 4
     },
     "children": [
       "logo#desktop"
@@ -129,10 +129,10 @@
       "width": "120"
     }
   },
-  "image#logo-mobile": {  
-    "props": {  
-      "src": "assets/logo-mobile.png"  
-    }  
+  "image#logo-mobile": {
+    "props": {
+      "src": "assets/logo-mobile.png"
+    }
   },
   "header-layout.mobile": {
     "children": [
@@ -164,7 +164,9 @@
   "login": {
     "props": {
       "optionsTitle": " LOG-IN ",
-      "providerPasswordButtonLabel": "Senha"
+      "providerPasswordButtonLabel": "Senha",
+      "logInButtonBehavior": "popover",
+      "showPasswordVerificationIntoTooltip": false
     }
   },
   "drawer": {
@@ -174,8 +176,8 @@
     ],
     "props": {
       "size": 5,
-      "viewBox": "0 0 31 31", 
-      "type": "filled" 
+      "viewBox": "0 0 31 31",
+      "type": "filled"
     }
   },
   "flex-layout.row#minha-conta": {
@@ -198,7 +200,6 @@
   },
   "menu#drawer": {
     "children": [
-
       "menu-item#menu-2",
       "menu-item#menu-3",
       "menu-item#menu-4",

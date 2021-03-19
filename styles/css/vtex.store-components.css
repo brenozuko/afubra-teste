@@ -109,6 +109,11 @@
   width: calc(100% - -137px);
 }
 
+.input::placeholder::before {
+  color:#666;
+  content:"00000-000";
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;
