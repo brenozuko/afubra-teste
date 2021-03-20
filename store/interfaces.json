@@ -1,5 +1,9 @@
 {
     "shipping-placeholder": {
         "component": "ShippingPlaceholder"
+    },
+
+    "redirect-login": {
+        "component":"RedirectLogin"
     }
 }

@@ -79,6 +79,7 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "login",
+      "redirect-login",
       "minicart.v2"
     ]
   },
