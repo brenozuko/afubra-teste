@@ -12,7 +12,7 @@ const RedirectLogin = () => {
         document
           .querySelector(".vtex-login-2-x-emailPasswordOptionBtn")
           .firstChild.click();
-      }, 900);
+      }, 1000);
     });
   }
 
