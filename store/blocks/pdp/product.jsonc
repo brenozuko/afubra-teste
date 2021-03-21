@@ -259,5 +259,10 @@
       },
       "blockClass": "product-who-saw"
     }
+  },
+  "shipping-simulator": {
+    "props": {
+      "blockClass": "calculo-frete"
+    }
   }
 }

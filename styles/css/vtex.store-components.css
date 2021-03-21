@@ -84,6 +84,12 @@
   font-size: 16px;
 }
 
+.shippingContainer :global(.vtex-address-form-4-x-input)::placeholder {
+  color: #018247;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .inputGroup :global(.vtex-button) {
   background-color: transparent;
   color: #fff;
@@ -110,8 +116,8 @@
 }
 
 .input::placeholder::before {
-  color:#666;
-  content:"00000-000";
+  color: #666;
+  content: "00000-000";
 }
 
 @media only screen and (min-width: 640px) {

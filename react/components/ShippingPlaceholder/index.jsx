@@ -5,7 +5,7 @@ import "./global.css";
 setTimeout(() => {
   if (canUseDOM) {
     let inputRef = document.querySelector(".vtex-address-form-4-x-input");
-    inputRef.setAttribute("placeholder", "12345-678");
+    inputRef.setAttribute("placeholder", "00-000-000");
   }
 }, 1000);
 
