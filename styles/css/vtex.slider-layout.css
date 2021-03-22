@@ -2,7 +2,6 @@
   justify-content: center;
 }
 .sliderLayoutContainer--carousel {
- 
 }
 
 .sliderTrackContainer {
@@ -10,8 +9,8 @@
 }
 
 .paginationDotsContainer {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .layoutContainer--shelf {
@@ -22,21 +21,23 @@
 
 .slide--shelf {
   margin-bottom: 25px;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-.sliderTrack--shelf{
+.sliderTrack--shelf {
   margin: 30px 0;
 }
 
-:global(.vtex-store-components-3-x-showMoreButton){
+
+
+:global(.vtex-store-components-3-x-showMoreButton) {
   padding: 12px 15px 10px;
   font-size: 14px;
   font-weight: bold;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
-:global(.vtex-store-components-3-x-showMoreButton):hover{
+:global(.vtex-store-components-3-x-showMoreButton):hover {
   background-color: #ddd;
 }

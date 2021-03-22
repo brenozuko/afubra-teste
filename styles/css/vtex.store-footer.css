@@ -1,21 +1,20 @@
 .row--menu-row {
   padding-right: 24px;
 }
-.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--row-pay){
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--row-pay) {
   justify-content: space-between;
 }
-.footerLayout  :global(.vtex-flex-layout-0-x-flexRowContent--row-dev){
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--row-dev) {
   justify-content: space-between;
 }
 .footerLayout.row-dev {
-
 }
 .row--payment-methods {
   padding-top: 16px;
 }
 .footerLayout {
-  background: #E7E6E5;
-  margin-top: 20px !important;
+  background: #e7e6e5;
+  margin-top: 40px !important;
 }
 
 .footerLayout :global(.vtex-menu-2-x-styledLink) {
@@ -23,11 +22,11 @@
   color: #585858;
   font-size: 16px;
 }
-.footerLayout :global(.vtex-menu-2-x-styledLinkContent--menu-title){
+.footerLayout :global(.vtex-menu-2-x-styledLinkContent--menu-title) {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 30px;
-  color: #018247; 
+  color: #018247;
   cursor: default;
   font-size: 16px;
 }
@@ -54,7 +53,7 @@
 }
 .footerLayout :global(.vtex-rich-text-0-x-link--footer-site) {
   text-decoration: none;
-  color: #585858; 
+  color: #585858;
 }
 .footerLayout :global(.vtex-rich-text-0-x-wrapper--footer-copy) {
   color: #585858;
@@ -74,5 +73,4 @@
     padding-left: 38px;
     max-width: 350px;
   }
-  
 }
