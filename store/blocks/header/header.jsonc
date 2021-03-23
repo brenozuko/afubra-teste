@@ -103,6 +103,9 @@
     ]
   },
   "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "props": {
       "placeholder": "Procure por qualquer informação como código, marca ou nome de produto",
       "blockClass": "testeee"

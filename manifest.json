@@ -63,7 +63,11 @@
     "vtex.store-form": "0.x",
     "vtex.product-highlights": "2.x",
     "vtex.category-menu": "2.x",
-    "vtex.render-runtime": "8.x"
+    "vtex.render-runtime": "8.x",
+    "vtex.admin-search": "0.x",
+    "vtex.search-resolver": "1.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.search": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
