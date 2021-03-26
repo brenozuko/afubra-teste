@@ -5,5 +5,9 @@
 
     "redirect-login": {
         "component":"RedirectLogin"
+    },
+
+    "product-specs": {
+        "component":"ProductSpecifications"
     }
 }

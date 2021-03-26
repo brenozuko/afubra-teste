@@ -204,7 +204,8 @@
   },
   "flex-layout.row#specifications": {
     "children": [
-      "product-specifications"
+      "product-specifications",
+      "product-specs"
     ],
     "props": {
       "blockClass": [
