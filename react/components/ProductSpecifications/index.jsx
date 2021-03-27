@@ -8,37 +8,43 @@ const ProductSpecifications = () => {
   const productInfo = useProduct();
   const productProperties = productInfo.product.properties;
 
-  let stringRegex = productProperties[15].values[0];
+  let tableRender = productProperties.map((property, index) => {
+    return (
+      <tr
+        key={property.name}
+        className={index % 2 == 0 ? "table-row-white" : "table-row-gray"}
+      >
+        <td
+          className={
+            index % 2 == 0
+              ? "table-data-white-description"
+              : "table-data-gray-description"
+          }
+        >
+          {property.name}
+        </td>
+        <td
+          className={
+            index % 2 == 0 ? "table-data-white-value" : "table-data-gray-value"
+          }
+          dangerouslySetInnerHTML={{
+            __html: property.values[0]
+              ? property.values[0].replace(/\n/g, "<br>")
+              : "",
+          }}
+        ></td>
+      </tr>
+    );
+  });
 
-  let messagetoSend = { __html: stringRegex.replace(/\n/g, "<br>") };
-
-  console.log(productProperties);
-
-  return (
+  return productProperties ? (
     <div className="product-specs">
       <h2 className="specs-title">ESPECIFICAÇÕES TÉCNICAS</h2>
-      <div className="table-specs">
-        <tr className="table-row-white">
-          <td className="table-data-white-description">Referência</td>
-          <td
-            className="table-data-white-value
-          "
-          >
-            CAF610
-          </td>
-        </tr>
 
-        <tr className="table-row-gray">
-          <td className="table-data-gray-description">Modelo</td>
-          <td
-            className="table-data-gray-value"
-            dangerouslySetInnerHTML={{
-              __html: stringRegex.replace(/\n/g, "<br>"),
-            }}
-          ></td>
-        </tr>
-      </div>
+      <table className="table-specs">{tableRender}</table>
     </div>
+  ) : (
+    <div></div>
   );
 };
 
